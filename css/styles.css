@@ -1,3 +1,47 @@
-h1 {
-    color: grey;
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+.topic {
+    position: relative;
+    left:35%
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    left: 35%;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    color: rgb(219, 219, 219);
+    background-color: rgb(66, 66, 66);
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+.center {
+    height: 50px;
+    position: relative;
+    top: 50%;
+}
+
+.intro {
+    padding-top: 2em;
+}
+
+.hire {
+    margin: 0 auto;
+    position: relative;  
 }
