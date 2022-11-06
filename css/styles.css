@@ -12,6 +12,10 @@ body {
     left:35%
 }
 
+.information {
+    line-height: 1;
+}
+
 .button {
     margin: 0;
     position: absolute;
